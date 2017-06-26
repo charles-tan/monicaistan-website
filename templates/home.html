@@ -5,8 +5,28 @@
         <meta charset="utf-8">
         <script id="template" type="x-tmp-mustache"> Hello {{ name }}! </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="/css/main.css" type="text/css"/>
     </head>
     <body>
-        <h1>Monica's website</h1>
+        <div id="topnav">
+            <span id="nav_logo">MonicaIsTan</span>
+            <ul id="nav_list">
+                <li><input type="checkbox">all</li>
+                <li><input type="checkbox">branding</li>
+                <li><input type="checkbox">web design</li>
+                <li><input type="checkbox">illustration</li>
+            </ul>
+            <div class="container" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+        </div>
+        <div id="welcome_page"></div>
     </body>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
 </html>

@@ -17,7 +17,8 @@ var engines = require('consolidate');
 app.engine('html', engines.hogan); // tell Express to run .html files through Hogan
 app.set('views', __dirname + '/templates'); // tell Express where to find templates, in this case the '/templates' directory
 app.set('view engine', 'html'); //register .html extension as template engine so we can render .html pages
-app.use(express.static(__dirname + '/Scripts'));
+app.use(express.static(__dirname + '/scripts'));
+app.use(express.static(path.join(__dirname, 'public')));
 // your app's code here
 
 app.get('/', function(request, response) {
