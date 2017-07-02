@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <script id="template" type="x-tmp-mustache"> Hello {{ name }}! </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="home.js"></script>
         <link rel="stylesheet" href="/css/main.css" type="text/css"/>
     </head>
     <body>
@@ -16,17 +17,15 @@
                 <li><input type="checkbox">web design</li>
                 <li><input type="checkbox">illustration</li>
             </ul>
-            <div class="container" onclick="myFunction(this)">
+            <div class="container" onclick="hamburgerMenu(this)">
               <div class="bar1"></div>
               <div class="bar2"></div>
               <div class="bar3"></div>
             </div>
         </div>
-        <div id="welcome_page"></div>
+        <div id="welcome_page">
+            <h1 id="homepage_text">transform our brand.</h1>
+            <h4 id="homepage_subtext">asjdfklasjldkfklasjdfklsajflkas djlkajs dflkjasl kfjslakdfjalsfjl</h4>
+        </div>
     </body>
-    <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
-        }
-    </script>
 </html>
