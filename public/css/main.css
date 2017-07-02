@@ -32,9 +32,11 @@
 }
 
 /* Hamburger Menu */
-.container {
+.hamburger {
     display: inline-block;
     cursor: pointer;
+    float: right;
+    padding-right: 8px
 }
 
 .bar1, .bar2, .bar3 {
