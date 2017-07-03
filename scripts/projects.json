@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "name": "test1",
+        "cover_img": "https://cmeimg-a.akamaihd.net/640/clsd/getty/c64f76dc20c246ca88ee180fe4b4b781",
+        "date": "July 2012",
+        "images": [
+            "https://www.petfinder.com/wp-content/uploads/2013/09/cat-black-superstitious-fcs-cat-myths-162286659.jpg",
+            "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg",
+            "http://www.rd.com/wp-content/uploads/sites/2/2016/04/06-cat-wants-to-tell-you-gift.jpg"
+        ],
+        "branding": true,
+        "web_design": false,
+        "illustration": false
+    },
+    {
+        "id": 2,
+        "name": "test2",
+        "cover_img": "https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg",
+        "date": "August 2016",
+        "images": [],
+        "branding": true,
+        "web_design": false,
+        "illustration": true
+    },
+    {
+        "id": 3,
+        "name": "test3",
+        "cover_img": "https://usercontent2.hubstatic.com/13261923_f520.jpg",
+        "date": "October 2000",
+        "images": [],
+        "branding": false,
+        "web_design": true,
+        "illustration": false
+    }
+]
